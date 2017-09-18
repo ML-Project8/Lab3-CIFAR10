@@ -1,6 +1,5 @@
 # Lab3-CIFAR10
 
 ### Directions
-- Unzip the contents of [this zip](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz) into the data/ folder
-- Use pickle to lead the data into python, then we can go back to business as usual
-- [This site](https://www.cs.toronto.edu/~kriz/cifar.html) describes the format of the pixel data
+- [This site](https://www.cs.toronto.edu/~kriz/cifar.html) is the data source and describes the format of the pixel data
+- Keras, a neuran network library has an import that downloads the CIFAR-10 dataset and spits out a training/test ndarray, which saves us a couple of steps (rather than downloading tand parsing the data directly from the source
